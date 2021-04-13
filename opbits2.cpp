@@ -1,11 +1,9 @@
 #include <iostream>
 int main() {
    using namespace std;
-
-   unsigned int a = 149;	
-   unsigned int b = 83;	
+   unsigned int a = 0;	
+   unsigned int b = 198;	
    int c = 0;           
-
    c = a & b;        
    cout<<"c = a & b, el valor de c es: "<<c<<endl;
    c = a | b;       
