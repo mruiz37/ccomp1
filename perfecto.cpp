@@ -4,22 +4,20 @@
 
 
 
-bool esPrimo(int valorRecibido);
-void calculaPrimos(int limiteSuperior);
-void calculaPerfectos(int limiteSuperior);
-void imprimePrimos(int limiteSuperior);
-void imprimePerfectos(int limiteSuperior);
-
-//int arreglo[100000]{0};
-int arreglo[100000]{0};
-int arregloLogico[100000]{0};
-long long  arregloCasiPerf[100000]{0};
-
 
 int main(){
 
+
+
+
  using namespace std;
 
+
+
+//int arreglo[100000]{0};
+ int arreglo[100000]{0};
+ int arregloLogico[100000]{0};
+ long long  arregloCasiPerf[100000]{0};
  int i,j,z{0} ,tope,primo;
  long numPerfecto;
  long factor,cuenta;
