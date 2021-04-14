@@ -35,7 +35,6 @@ bool esPrimo(int valorRecibido)
 {
   int valor=1;
   int cuentaDivisiones=0;
-//codigo para revisar si el número recibido es primo 
  while(valor<=valorRecibido){
     
     if(!(valorRecibido%valor))
@@ -47,7 +46,7 @@ bool esPrimo(int valorRecibido)
   valor++;
   }
   if (cuentaDivisiones==2)
-     {//std::cout<<"cuenta divisiones"<<cuentaDivisiones;
+     {
      return true;
      }
   else{

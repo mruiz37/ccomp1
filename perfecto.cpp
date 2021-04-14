@@ -7,12 +7,7 @@
 
 int main(){
 
-
-
-
  using namespace std;
-
-
 
 //int arreglo[100000]{0};
  int arreglo[100000]{0};
