@@ -11,7 +11,7 @@ void imprimePerfectos(int limiteSuperior);
 //int arreglo[100000]{0};
 int arreglo[100000]{0};
 int arregloLogico[100000]{0};
-long long  arregloCasiPerf[100000]{0};
+int  arregloCasiPerf[100000]{0};
 
 
 int main(){
