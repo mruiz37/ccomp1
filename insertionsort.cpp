@@ -2,7 +2,7 @@
 #include<array>
 using namespace std;
 
-//void imprimirArreglo(array<int,x> );
+
 
 int main(){
  array<int,6> n;
@@ -20,16 +20,15 @@ for(i=1; i< n.size(); i++)
     j=i-1;
     while (j>=0 && n[j]>clave )
      {
-      n[j+1]= n[j]; //temporal;
+      n[j+1]= n[j];
       j--;
      }
      n[j+1]=clave;    
    }
 
-cout<<" imprimo el contenido del arreglo ";
+cout<<endl<<" imprimo el contenido del arreglo ";
 for(i=0; i< n.size(); i++)
     cout<<n[i]<<" ";
-
 
     return 0;
 }

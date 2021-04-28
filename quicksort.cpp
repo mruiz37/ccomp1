@@ -12,11 +12,8 @@ void imprimeArreglo(int arr[], int n);
 int main()
 {
 int n=10, i;
-int arr[10];
-for(i = 0; i < n; i++)
- {
- cin >> arr[i];
- }
+int arr[10]={9,8,6,3,2,1,5,4,10,7};
+
 quicksort(arr, 0, n - 1);
 imprimeArreglo(arr, n);
 
@@ -62,7 +59,5 @@ if (menor < mayor)
 void imprimeArreglo(int arr[], int n)
 {
 for(int i = 0; i < n; i++)
-  {
    cout << arr[i] << " "; 
-  }
 }
